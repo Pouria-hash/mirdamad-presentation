@@ -1,0 +1,15 @@
+footer {
+  background: url(../assets/images/footer-Background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    background: url(../assets/images/Footer-Background-Mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

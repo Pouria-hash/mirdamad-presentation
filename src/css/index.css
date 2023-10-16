@@ -1,0 +1,20 @@
+.image-wrapper {
+  z-index: 10;
+  position: relative;
+}
+.image-wrapper::after {
+  content: " ";
+  inset: -3px;
+  position: absolute;
+  background: linear-gradient(
+    253.54deg,
+    #fcc342 -6.09%,
+    #9e5313 3.29%,
+    #e7aa39 22.03%,
+    #f7fc97 38.91%,
+    #e7aa39 48.28%,
+    #632507 76.4%
+  );
+  border-radius: 10px;
+  z-index: -10;
+}

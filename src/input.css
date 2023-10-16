@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IranSans";
+  src: local("IranSans"),
+    url("/src/assets/fonts/IR-Sans-fonts/IRANSans-UltraLight-web_0.ttf")
+      format("opentype");
+  font-style: normal;
+  font-weight: 100;
+  font-display: auto;
+}
+@font-face {
+  font-family: "IranSans";
+  src: local("IranSans"),
+    url("/src/assets/fonts/IR-Sans-fonts/IRANSans-web_0.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+}
+@font-face {
+  font-family: "IranSans";
+  src: local("IranSans"),
+    url("/src/assets/fonts/IR-Sans-fonts/IRANSans-Light-web_0.ttf")
+      format("opentype");
+  font-style: normal;
+  font-weight: 200;
+  font-display: auto;
+}
+@font-face {
+  font-family: "IranSans";
+  src: local("IranSans"),
+    url("/src/assets/fonts/IR-Sans-fonts/IRANSans-Medium-web_0.ttf")
+      format("opentype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: auto;
+}
+@font-face {
+  font-family: "IranSans";
+  src: local("IranSans"),
+    url("/src/assets/fonts/IR-Sans-fonts/IRANSans-Bold-web_0.ttf")
+      format("opentype");
+  font-style: normal;
+  font-weight: 800;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Kalameh";
+  src: local("Kalameh"),
+    url("/src/assets/fonts/Kalameh/Kalameh Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Kalameh";
+  src: local("Kalameh"),
+    url("/src/assets/fonts/Kalameh/Kalameh Black.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Dana";
+  src: local("Dana"),
+    url("/src/assets/fonts/Dana/Dana-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+}

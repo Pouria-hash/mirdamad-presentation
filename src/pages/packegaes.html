@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="IR-fr" dir="rtl" class="font-serif scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <title>پکیج ها | میرداماد</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/packagesSlider.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <style>
+        * {
+            font-family: 'Dana', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen font-IranSans text-white relative">
+    <header class="relative">
+        <div class="overflow-hidden">
+            <div class="w-5/6 md:w-2/4 h-8 rounded-2xl absolute left-1/2 -translate-x-1/2 -top-5 "
+                style="background:linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+            </div>
+            <div class="absolute hidden lg:flex inset-x-0 items-center justify-center -z-20">
+                <img src="../assets/images/Gold-Light-Header.svg" alt="light">
+            </div>
+        </div>
+
+        <div class="my-5 py-5 lg:my-10 lg:py-8 relative">
+            <div class="relative">
+                <!-- desktop navigation -->
+                <div class="hidden container px-6 lg:grid grid-cols-12 items-center gap-5">
+                    <div class="col-span-5 relative">
+                        <nav>
+                            <ul class="flex flex-row gap-2 items-center justify-evenly">
+                                <li>
+                                    <a href="/khadamat" class="text-sm">خدمات تالار</a>
+                                </li>
+                                <li>
+                                    <a href="/blog" class="text-sm">بلاگ و مقالات</a>
+                                </li>
+                                <li>
+                                    <a href="/blog" class="text-sm">بلاگ و مقالات</a>
+                                </li>
+                                <li>
+                                    <a href="/blog" class="text-sm">بلاگ و مقالات</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="col-span-2">
+                        <img src="../assets/images/Logo.png" alt="میرداماد" class="max-w-full h-fit object-cover">
+                    </div>
+
+                    <div class="col-span-5 relative">
+                        <nav>
+                            <ul class="flex flex-row gap-2 items-center justify-evenly">
+                                <li>
+                                    <a href="#" class="text-sm">پاساژ آنلاین</a>
+                                </li>
+                                <li>
+                                    <a href="/faq" class="text-sm">راهنمای پیش رزرو</a>
+                                </li>
+                                <li>
+                                    <a href="/about_us" class="text-sm">درباره ما</a>
+                                </li>
+                                <li>
+                                    <a href="/ruls" class="text-sm">قوانین و مقررات</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+                <div class="hidden xl:flex absolute top-5 right-0 w-5/12 xl:w-5/12 -z-10">
+                    <img src="../assets/images/right-header-vector.svg" class="w-full">
+                </div>
+                <div class="hidden xl:flex absolute inset-y-0 left-0 w-5/12 -z-10">
+                    <img src="../assets/images/left-header-vector.svg" class="w-full">
+                </div>
+                <!-- mobile navigation -->
+                <div class="flex lg:hidden container px-6 flex-row items-center justify-between">
+                    <div>
+                        <img src="../assets/images/Logo.png" alt="میرداماد" class="max-w-fit h-20 object-cover">
+                    </div>
+                    <div class="grow flex justify-end">
+                        <button type="button">
+                            <img src="../assets/icons/menu.svg" alt="menu">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="mt-16 relative ">
+        <div class="px-4 max-w-7xl mx-auto md:px-6 lg:px-8 grid gap-10">
+            <div class="max-w-5xl mx-auto">
+                <div class="flex flex-row gap-6 lg:gap-16 items-center justify-center mb-10">
+                    <div class="flex flex-row items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="bi bi-boxes package-icon hidden lg:flex transition-all fill-gray-500"
+                            viewBox="0 0 18 18">
+                            <path
+                                d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z" />
+                        </svg>
+                        <span class="package-name transition-all text-lg lg:text-xl text-gray-500 font-serif">
+                            پکیج طلایی
+                        </span>
+                    </div>
+                    <div class="flex flex-row items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            class="bi bi-boxes package-icon hidden lg:flex fill-[#FCC342] transition-all"
+                            viewBox="0 0 18 18">
+                            <path
+                                d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z" />
+                        </svg>
+                        <span class="package-name transition-all text-xl lg:text-3xl text-white font-serif">
+                            پکیج نقره ای
+                        </span>
+                    </div>
+                    <div class="flex flex-row items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="bi bi-boxes package-icon hidden lg:flex transition-all fill-gray-500"
+                            viewBox="0 0 18 18">
+                            <path
+                                d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z" />
+                        </svg>
+                        <span class="package-name transition-all text-lg lg:text-xl text-gray-500 font-serif">
+                            پکیج برنزی
+                        </span>
+                    </div>
+                </div>
+
+                <div class="flex flex-row justify-around lg:justify-between items-center">
+                    <div>
+                        <button type="button" class="next-package-btn">
+                            <img src="../assets/icons/arrow-square-right.svg">
+                        </button>
+                    </div>
+                    <div>
+                        <button type="button" class="prev-package-btn">
+                            <img src="../assets/icons/arrow-square-left.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- package container -->
+            <section class="max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-screen-lg mx-auto">
+                <div
+                    class="p-2 md:p-8 lg:p-14 border border-secondary bg-gradient-to-l from-[#3A3A3A85] to-[#3A3A3A00]  backdrop-blur-md rounded-t-2xl">
+                    <div class="swiper package-slider">
+                        <div class="swiper-wrapper">
+                            <!-- -------- slide one ------- -->
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-2 items-center gap-x-28 gap-y-6 lg:gap-y-2 px-6">
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] rounded-xl px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    مزون عروس
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    مزون گل رز
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 330.png" alt="مزون گل رز"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary rounded-xl bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    آرایشگاه عروس
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    آرایشگاه گلبرگ
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4 ">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 332.png" alt="آرایشگاه عروس"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+
+                                    <!-- frame divider -->
+                                    <div class="col-span-2 hidden lg:block">
+                                        <div class="flex justify-center items-center">
+                                            <img src="../assets/images/Frame.svg">
+                                        </div>
+                                    </div>
+                                    <!-- ///// -->
+
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] rounded-xl px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    آرایشگاه داماد
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    آرایشگاه آراد
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 334.png" alt="مزون گل رز"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary rounded-xl bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    گل‌سرا
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    گل سرای پرورش
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4 ">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 336.png" alt="آرایشگاه عروس"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+
+                                </div>
+                            </div>
+
+
+                            <!-- --------------- slide two ------------- -->
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-2 items-center gap-x-28 gap-y-6 lg:gap-y-2 px-6">
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] rounded-xl px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    مزون عروس
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    مزون گل رز
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 330.png" alt="مزون گل رز"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary rounded-xl bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    آرایشگاه عروس
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    آرایشگاه گلبرگ
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4 ">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 332.png" alt="آرایشگاه عروس"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+
+                                    <!-- frame divider -->
+                                    <div class="col-span-2 hidden lg:block">
+                                        <div class="flex justify-center items-center">
+                                            <img src="../assets/images/Frame.svg">
+                                        </div>
+                                    </div>
+                                    <!-- ///// -->
+
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] rounded-xl px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    آرایشگاه داماد
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    آرایشگاه آراد
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 334.png" alt="مزون گل رز"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary rounded-xl bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    گل‌سرا
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    گل سرای پرورش
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4 ">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 336.png" alt="آرایشگاه عروس"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+
+                                    <!-- frame divider -->
+                                    <div class="col-span-2 hidden lg:block">
+                                        <div class="flex justify-center items-center">
+                                            <img src="../assets/images/Frame.svg">
+                                        </div>
+                                    </div>
+                                    <!-- ///// -->
+
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] rounded-xl px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    ارکست
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    دی‌جی سمپل
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4 ">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 340.png" alt="ارکست"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary rounded-xl bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    آتلیه
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    آتلیه سرخ
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 339.png" alt="اتلیه"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+
+                                    <!-- frame divider -->
+                                    <div class="col-span-2 hidden lg:block">
+                                        <div class="flex justify-center items-center">
+                                            <img src="../assets/images/Frame.svg">
+                                        </div>
+                                    </div>
+                                    <!-- ///// -->
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] rounded-xl px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    منوی پذیرایی
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    منوی ویژه میرداماد
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4 ">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 344.png"
+                                                        alt="منوی ویژه میرداماد"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary rounded-xl bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    تعداد میهمان
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    بین ۳۰۰ تا ۵۵۰ نفر
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 343.png" alt="تعداد میهمان"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+
+                                    <!-- price -->
+                                    <div class="my-32 col-span-2">
+                                        <div class="flex justify-center items-center relative">
+                                            <div class="border border-secondary rounded-xl px-2 py-2 lg:py-4 flex flex-row gap-2 items-center"
+                                                style="background: linear-gradient(273.21deg, rgba(0, 0, 0, 0) 0.69%, #000000 53.91%, rgba(53, 52, 52, 0) 102.72%);">
+                                                <img src="../assets/icons/dollar-square.svg">
+                                                <span class="text-xl lg:text-3xl">
+                                                    قیمت:
+                                                </span>
+                                                <span class="text-xl lg:text-2xl">
+                                                    35 میلیون تومان
+                                                </span>
+                                            </div>
+
+                                            <div
+                                                class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 -z-10">
+                                                <img src="../assets/images/Frame.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ------- slide three ------- -->
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-2 items-center gap-x-28 gap-y-6 lg:gap-y-2 px-6">
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] rounded-xl px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    مزون عروس
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    مزون گل رز
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 330.png" alt="مزون گل رز"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary rounded-xl bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    آرایشگاه عروس
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    آرایشگاه گلبرگ
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4 ">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 332.png" alt="آرایشگاه عروس"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+
+                                    <!-- frame divider -->
+                                    <div class="col-span-2 hidden lg:block">
+                                        <div class="flex justify-center items-center">
+                                            <img src="../assets/images/Frame.svg">
+                                        </div>
+                                    </div>
+                                    <!-- ///// -->
+
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] rounded-xl px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    آرایشگاه داماد
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    آرایشگاه آراد
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 334.png" alt="مزون گل رز"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+                                    <!-- package card -->
+                                    <div class="col-span-2 lg:col-span-1">
+                                        <a href="#"
+                                            class="border border-secondary rounded-xl bg-gradient-to-r from-[#3A3A3A85] to-[#3A3A3A00] px-6 py-4 grid grid-cols-12 items-center gap-5">
+                                            <div class="col-span-6 lg:col-span-8 grid gap-5">
+                                                <h2 class="text-xl md:text-4xl font-serif">
+                                                    گل‌سرا
+                                                </h2>
+                                                <h5 class="text-xs md:text-lg">
+                                                    گل سرای پرورش
+                                                </h5>
+                                            </div>
+                                            <div class="col-span-6 lg:col-span-4 ">
+                                                <div class="relative -left-5 lg:-left-9">
+                                                    <img src="../assets/images/Rectangle 336.png" alt="آرایشگاه عروس"
+                                                        class="w-full h-20 lg:h-24 object-cover rounded-lg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- //// -->
+                                </div>
+                            </div>
+                            <!-- /// -->
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- background frame -->
+        <div class="absolute -z-20 inset-0">
+            <img src="../assets/images/packages-fram.png" alt="frame" class="max-w-full">
+        </div>
+    </main>
+
+    <footer class="relative overflow-hidden z-10">
+        <div class=" container max-w-6xl px-4 pt-36 md:pt-24 pb-10">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-14 items-end justify-between">
+                <div class="col-span-1 md:col-span-5">
+                    <div class="grid gap-5">
+                        <div class="flex md:hidden items-center justify-center">
+                            <img src="../assets/images/Logo-Footer.png" alr="میرداماد"
+                                class="max-w-full h-fit object-cover">
+                        </div>
+                        <h2 class="text-xl lg:text-3xl">
+                            درباره ما
+                        </h2>
+                        <p class="text-sm leading-7">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-span-1 md:col-span-3 grid gap-5">
+                    <div class="md:flex hidden items-center justify-center relative left-2">
+                        <img src="../assets/images/Logo-Footer.png" alr="میرداماد"
+                            class="max-w-full h-fit object-cover">
+                    </div>
+                    <h2 class="text-xl lg:text-3xl">ارتباط با ما</h2>
+                    <div class="grid gap-3">
+                        <h5 class="text-sm">
+                            اهواز، بهارستان، صدف یکم، همگام4
+                        </h5>
+                        <a href="tel:061456365343" class="text-sm">
+                            061-4563654535
+                        </a>
+                        <a href="tel:09164567367" class="text-sm">
+                            09164567367
+                        </a>
+                        <div class="flex flex-row gap-3 items-center">
+                            <a href="#">
+                                <img src="../assets/icons/instagram.svg">
+                            </a>
+                            <a href="#">
+                                <img src="../assets/icons/Facebook.svg">
+                            </a>
+                            <a href="#">
+                                <img src="../assets/icons/Twitter.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- route -->
+                <div class="col-span-1 md:col-span-4 hidden md:flex">
+                    <div class="relative pb-10">
+                        <a href="#"
+                            class="flex flex-row gap-3 text-lg lg:text-2xl border border-secondary items-center px-5 py-3 rounded-xl bg-gradient-to-r from-[#35343400] to-[#353434] backdrop-blur-sm">
+                            <img src="../assets/icons/routing-2.svg">
+                            <span class="font-serif">
+                                مسیریابی آنلاین تالار
+                            </span>
+                        </a>
+                        <div class="absolute top-1/2 -translate-y-2/3 left-1/2 -translate-x-1/2 -z-10">
+                            <img src="../assets/images/Footer-Frame.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-2/4 h-8 rounded-2xl absolute left-1/2 -translate-x-1/2 -bottom-5"
+            style="background:linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+        </div>
+
+    </footer>
+
+    <script src="../js/packagesSlider.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1005 @@
+<!doctype html>
+<html lang="IR-fr" dir="rtl" class="font-serif scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <title>خانه | میرداماد</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/homeVideoSlider.css">
+    <link rel="stylesheet" href="../css/homeGallerySlider.css">
+    <link rel="stylesheet" href="../css/homeReviewsSlider.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <style>
+        * {
+            font-family: 'Dana', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen font-sans text-white">
+    <header class="relative">
+        <div class="overflow-hidden">
+            <div class="w-5/6 md:w-2/4 h-8 rounded-2xl absolute left-1/2 -translate-x-1/2 -top-5 "
+                style="background:linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+            </div>
+            <div class="absolute hidden lg:flex inset-x-0 items-center justify-center -z-20">
+                <img src="../assets/images/Gold-Light-Header.svg" alt="light">
+            </div>
+        </div>
+
+        <div class="my-5 py-5 lg:my-10 lg:py-8 relative">
+            <div class="relative">
+                <!-- desktop navigation -->
+                <div class="hidden container px-6 lg:grid grid-cols-12 items-center gap-5">
+                    <div class="col-span-5 relative">
+                        <nav>
+                            <ul class="flex flex-row gap-2 items-center justify-evenly">
+                                <li>
+                                    <a href="/khadamat" class="text-sm">خدمات تالار</a>
+                                </li>
+                                <li>
+                                    <a href="/blog" class="text-sm">بلاگ و مقالات</a>
+                                </li>
+                                <li>
+                                    <a href="/blog" class="text-sm">بلاگ و مقالات</a>
+                                </li>
+                                <li>
+                                    <a href="/blog" class="text-sm">بلاگ و مقالات</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="col-span-2">
+                        <img src="../assets/images/Logo.png" alt="میرداماد" class="max-w-full h-fit object-cover">
+                    </div>
+
+                    <div class="col-span-5 relative">
+                        <nav>
+                            <ul class="flex flex-row gap-2 items-center justify-evenly">
+                                <li>
+                                    <a href="#" class="text-sm">پاساژ آنلاین</a>
+                                </li>
+                                <li>
+                                    <a href="/faq" class="text-sm">راهنمای پیش رزرو</a>
+                                </li>
+                                <li>
+                                    <a href="/about_us" class="text-sm">درباره ما</a>
+                                </li>
+                                <li>
+                                    <a href="/ruls" class="text-sm">قوانین و مقررات</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+                <div class="hidden xl:flex absolute top-5 right-0 w-5/12 xl:w-5/12 -z-10">
+                    <img src="../assets/images/right-header-vector.svg" class="w-full">
+                </div>
+                <div class="hidden xl:flex absolute inset-y-0 left-0 w-5/12 -z-10">
+                    <img src="../assets/images/left-header-vector.svg" class="w-full">
+                </div>
+                <!-- mobile navigation -->
+                <div class="flex lg:hidden container px-6 flex-row items-center justify-between">
+                    <div>
+                        <img src="../assets/images/Logo.png" alt="میرداماد" class="max-w-fit h-20 object-cover">
+                    </div>
+                    <div class="grow flex justify-end">
+                        <button type="button" id="showDrawerBtn"
+                            class="flex lg:hidden hover:bg-secondary focus:outline-none transition-all rounded-full p-2">
+                            <img src="../assets/icons/menu.svg" alt="menu">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- hero  -->
+    <div class="relative">
+        <div class="container px-4 py-10 relative">
+            <!-- hero image for desktop -->
+            <div class="absolute left-0 hidden md:flex top-0">
+                <img src="../assets/images/Hero-Image.png"
+                    class="md:max-w-sm lg:max-w-md xl:max-w-full h-fit object-cover">
+            </div>
+            <div class="grid gap-5">
+                <!-- hero image for mobile -->
+                <div class="md:hidden">
+                    <img src="../assets/images/Hero-Image.png" alt="میرداماد" class="max-w-full h-fit object-cover">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-12">
+                    <div class="col-span-1 md:col-span-6 lg:col-span-3">
+                        <h2 class="text-3xl lg:text-4xl xl:text-5xl font-serif leading-loose text-center md:text-start"
+                            style="line-height:1.6em">
+                            ما در مجموعه فرهنگی و پذیرایی میرداماد
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-12 z-20">
+                    <div class="col-span-1 md:col-span-7 lg:col-span-6">
+                        <h3 class="text-center md:text-start text-secondary lg:text-xl leading-loose">
+                            سعی داریم تا چراغ راه زوج هایی باشیم که در مسیر رسیدن به خانه ی امیدشان، با مشکلات کمتری
+                            مواجه شوند
+                        </h3>
+                    </div>
+                </div>
+                <!-- search box -->
+                <div class="hidden md:grid grid-cols-12">
+                    <div class="col-span-8 relative">
+                        <div class="border border-secondary rounded-lg py-5 px-7 backdrop-blur-md">
+                            <div class="relative">
+                                <input type="search" placeholder="در بین ۵۰۰+ خدمات و کالا، نیاز خود را جستجو کنید"
+                                    class="w-full border p-3 bg-white focus:outline-0 focus:ring-secondary focus:ring-2 rounded-lg transition-all">
+                                <div class="absolute top-3 left-2">
+                                    <img src="../assets/icons/search-normal.svg">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- frame -->
+                        <div class="absolute top-1/3 right-7 -z-10">
+                            <img src="../assets/images/Frame.svg">
+                        </div>
+                        <!-- /// -->
+                    </div>
+                </div>
+                <!-- //// -->
+            </div>
+        </div>
+
+        <!-- gold line -->
+        <div class="absolute left-0 top-0 hidden xl:flex xl:top-11 -z-50">
+            <img src="../assets/images/Hero-Gold-Line.svg">
+        </div>
+    </div>
+    <!-- /// -->
+
+    <!-- show packages -->
+    <section class="my-10 md:my-52">
+        <div class="container px-4">
+            <div class="grid relative grid-cols-12">
+                <div class="relative col-span-12 lg:col-span-7 xl:col-span-5">
+                    <div
+                        class="relative px-10 lg:px-16 py-6 lg:py-10 mx-5 rounded-t-2xl z-20 lg:rounded-2xl border border-secondary bg-[#ffffff11] backdrop-blur">
+                        <p class="text-lg text-center font-serif leading-9 lg:text-4xl" style="line-height:1.4em">
+                            معرفی و مقایسه پکیج های
+                            جشنواره فصلی مخصوص
+                            برگزاری مراسم
+                        </p>
+                    </div>
+                    <div
+                        class="absolute -top-1/3 lg:top-1/2 lg:-translate-y-1/2 right-1/2 lg:-right-10 translate-x-1/2 lg:translate-x-0 ">
+                        <img src="../assets/images/Frame.svg">
+                    </div>
+                    <div class="hidden lg:flex absolute -top-1/3 lg:top-1/2 lg:-translate-y-1/2 lg:-left-10 z-10 ">
+                        <img src="../assets/images/Frame.svg">
+                    </div>
+                </div>
+
+                <div class="lg:hidden col-span-12">
+                    <img src="../assets/images/Rectangle 323.png" alt="packages"
+                        class="rounded-2xl w-full h-fit object-cover">
+                </div>
+
+                <div class="col-span-12 mt-6 flex justify-center items-center ">
+                    <a href="#" class="flex flex-row gap-2 items-center text-lg lg:hidden">
+                        <span> مشاهده پکیج ها</span>
+                        <img src="../assets/icons/arrow-left.svg">
+                    </a>
+                </div>
+
+                <!-- desktop picture -->
+                <div class="absolute -top-10 left-1/2 -translate-x-3/4  hidden lg:flex">
+                    <div class="relative">
+                        <img src="../assets/images/Rectangle 323.png" class="w-max h-fit object-cover rounded-2xl">
+                        <div class="absolute -bottom-5 -left-16 z-50">
+                            <a href="#"
+                                class="font-serif border border-secondary hover:bg-[#ffffff17] transition-all rounded-2xl backdrop-blur-md px-10 py-3 text-2xl opacity-90 z-50">
+                                مشاهده پکیج ها
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- shop section -->
+    <section class="my-28 md:my-52">
+        <div class="container px-4">
+            <div class="grid relative grid-cols-12">
+                <div class="relative col-span-12 lg:col-start-7 lg:col-span-6 xl:col-start-6">
+                    <div class="relative">
+                        <div
+                            class="z-10 px-10 py-6 lg:py-10 mx-5 rounded-t-2xl lg:rounded-2xl border border-secondary backdrop-blur-xl">
+
+                            <p class="text-lg font-serif text-center leading-9 lg:text-4xl" style="line-height:1.4em">
+                                پاساژ آنلاین عروس و داماد
+                            </p>
+                        </div>
+                        <div
+                            class="absolute -z-10 -top-14 lg:top-1/2 lg:-translate-y-1/2 right-1/2 lg:-right-10 translate-x-1/2 lg:translate-x-0 ">
+                            <img src="../assets/images/Frame.svg">
+                        </div>
+                        <div
+                            class="hidden -z-10 lg:flex absolute -top-1/3 lg:top-1/2 lg:-translate-y-1/2 lg:-left-10  ">
+                            <img src="../assets/images/Frame.svg">
+                        </div>
+                    </div>
+                    <div class="lg:flex justify-end pl-8 hidden ">
+                        <a href="#" class="mt-6 flex flex-row gap-3 items-center">
+                            <span>ورود</span>
+                            <img src="../assets/icons/arrow-left.svg">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- mobile image and link -->
+                <div class="lg:hidden col-span-12">
+                    <img src="../assets/images/Rectangle 327.png" alt="packages"
+                        class="rounded-2xl w-full h-fit object-cover">
+                </div>
+
+                <div class="col-span-12 mt-6 flex justify-center items-center">
+                    <a href="#" class="flex flex-row gap-2 items-center text-lg lg:hidden">
+                        <span>ورود</span>
+                        <img src="../assets/icons/arrow-left.svg">
+                    </a>
+                </div>
+
+                <!-- desktop picture -->
+                <div class="absolute -top-10 right-0 -z-20 hidden lg:flex">
+                    <div class="relative">
+                        <img src="../assets/images/Rectangle 327.png" class="w-max h-fit object-cover rounded-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Reserve section -->
+    <section class="my-28 lg:my-32 relative ">
+        <div class="absolute inset-x-0 -top-10 hidden lg:flex">
+            <img src="../assets/images/Frame14.png" alt="رزرو " class="w-full max-h-[950px] object-cover">
+        </div>
+        <!-- desktop -->
+        <div class="max-w-7xl mx-auto relative lg:grid grid-cols-12 hidden content-end" style="height:700px; ">
+
+            <div class="absolute inset-0">
+                <img src="../assets/images/Reserve-desktop-background-2.png" alt="رزرو " class="max-w-full h-fit">
+            </div>
+            <div class="max-w-4xl col-start-3 col-span-9 pb-44">
+                <div class="rounded-xl backdrop-blur bg-[#ffffff0e] px-10 py-9 flex flex-row items-center gap-6">
+                    <a href="#"
+                        class="bg-gradient-to-l from-[#F9ECBC] to-[#6E4912] flex flex-row gap-6 rounded-xl px-14 py-3 items-center">
+                        <span class="whitespace-nowrap">پیش رزرو آنلاین</span>
+                        <div class="w-px h-9 bg-white"></div>
+                        <img src="../assets/icons/reserve.svg">
+                    </a>
+                    <a href="#"
+                        class="flex flex-row py-3 px-6 border grow border-secondary rounded-xl items-center justify-center gap-2">
+                        <img src="../assets/icons/info-circle.svg">
+                        <span class="text-xl">تاریخ درخواستی یا پیشنهادی</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- mobile -->
+        <div class="relative lg:hidden">
+            <div class="container px-4 grid gap-8 ">
+                <div class="relative">
+                    <img src="../assets/images/Reserve-mobile-background.png" alt="رزرو"
+                        class="w-full h-fit object-cover pr-3">
+                    <div class="absolute -bottom-5 left-1/2 -translate-x-1/2">
+                        <a href="#"
+                            class="bg-gradient-to-l from-[#F9ECBC] to-[#6E4912] flex flex-row gap-5 rounded-xl px-14 py-3 items-center">
+                            <span class="whitespace-nowrap">پیش رزرو آنلاین</span>
+                            <div class="w-px h-9 bg-white"></div>
+                            <img src="../assets/icons/reserve.svg">
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="flex flex-row items-center justify-center mt-5 gap-2">
+                    <img src="../assets/icons/info-circle.svg">
+                    <span class="text-xl">تاریخ درخواستی یا پیشنهادی</span>
+                </a>
+            </div>
+            <!-- background fram -->
+            <div class="absolute -z-10 inset-x-0 -top-24 bottom-0">
+                <img src="../assets/images/Frame-reserve-mobile.svg">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- food menu section -->
+    <section class="my-20 lg:my-40 max-w-7xl mx-auto lg:px-4">
+        <header class="grid grid-cols-12 items-center gap-6">
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/right-divider.svg">
+            </div>
+            <div class="col-span-12 lg:col-span-4 flex flex-row gap-3 items-center justify-center">
+                <img src="../assets/icons/Chicken.svg">
+                <h2 class="text-3xl font-serif">منوهای غذا</h2>
+            </div>
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/left-divider.svg">
+            </div>
+        </header>
+
+        <div class="mt-14">
+            <!-- desktop view -->
+            <div class="lg:grid grid-cols-12 items-center gap-6 hidden">
+                <div class="col-span-6 ">
+                    <div class="grid grid-cols-12 gap-10">
+                        <div class="col-start-4 col-span-5">
+                            <a href="#" class="rounded-xl bg-white flex flex-col gap-2 px-3 pt-5">
+                                <h5 href="#" class="text-xl font-bold text-[#542112]">منوی غذای پرسی</h5>
+                                <div class="flex justify-end">
+                                    <img src="../assets/icons/spicy-food-light.svg" alt="spicy-food">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-start-6 col-span-5">
+                            <a href="#" class="rounded-xl bg-white flex flex-col px-3 pt-5 relative">
+                                <h5 href="#" class="text-xl font-bold text-[#542112]">منوی غذای <br> سلف سرویس</h5>
+                                <div class="flex justify-end">
+                                    <img src="../assets/icons/spicy-food-light.svg" alt="spicy-food">
+                                </div>
+
+                                <div class="absolute -top-7 -right-10 -z-10">
+                                    <img src="../assets/images/Frame.svg" alt="frame">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-5  relative">
+                    <img src="../assets/images/Rectangle8.png" alt="food" class="w-full h-full object-cover">
+                    <div class="absolute -right-9 top-5 -z-10">
+                        <img src="../assets/images/frame.svg">
+                    </div>
+                    <div class="absolute left-1/2 -translate-x-1/2 -bottom-8 -z-10">
+                        <img src="../assets/images/frame.svg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- mobile view -->
+            <div class="lg:hidden"
+                style="background:linear-gradient(90deg, #000000d1 0%, #0000006e 100%), url(../assets/images/Rectangle8.png); background-repeat:no-repeat;background-size:cover;background-position:center; ">
+                <div class="flex flex-col gap-8 px-10 sm:px-14 md:px-16 py-20 max-w-xl mx-auto">
+                    <a href="#" class="rounded-xl bg-white flex flex-col gap-2 px-3 pt-5">
+                        <h5 href="#" class="text-xl font-bold text-[#542112]">منوی غذای پرسی</h5>
+                        <div class="flex justify-end">
+                            <img src="../assets/icons/spicy-food-light.svg" alt="spicy-food">
+                        </div>
+                    </a>
+
+                    <a href="#" class="rounded-xl bg-white flex flex-col px-3 pt-5 relative">
+                        <h5 href="#" class="text-xl font-bold text-[#542112]">منوی غذای <br> سلف سرویس</h5>
+                        <div class="flex justify-end">
+                            <img src="../assets/icons/spicy-food-light.svg" alt="spicy-food">
+                        </div>
+
+                        <div class="absolute -top-7 -right-10 -z-10">
+                            <img src="../assets/images/Frame.svg" alt="frame">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- music section -->
+    <section class="my-20 lg:my-40 max-w-7xl mx-auto px-6">
+        <header class="grid grid-cols-12 items-center gap-6">
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/right-divider.svg">
+            </div>
+            <div class="col-span-12 lg:col-span-4 flex flex-row gap-3 items-center justify-center">
+                <img src="../assets/icons/music-home.svg">
+                <h2 class="text-3xl font-serif">گروه موسیقی</h2>
+            </div>
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/left-divider.svg">
+            </div>
+        </header>
+
+        <div class="max-w-5xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-24 lg:gap-14 items-center mt-16">
+            <div class="relative hover:-translate-y-2 transition-all">
+                <div class="image-wrapper">
+                    <a href="/music/digi" class="flex items-center justify-center p-4 bg-secondary rounded-lg">
+                        <p class="font-serif text-xl font-bold text-[#542112]">
+                            دیجی
+                        </p>
+                    </a>
+                </div>
+
+                <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+                    <img src="../assets/images/music-background.svg">
+                </div>
+            </div>
+            <div class="relative hover:-translate-y-2 transition-all">
+                <div class="image-wrapper">
+                    <a href="/music/#" class="flex items-center  justify-center p-4 bg-secondary rounded-lg">
+                        <p class="font-serif text-xl font-bold text-[#542112]">
+                            ارکستر
+                        </p>
+                    </a>
+                </div>
+
+                <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+                    <img src="../assets/images/music-background.svg">
+                </div>
+            </div>
+            <div class="relative hover:-translate-y-2 transition-all">
+                <div class="image-wrapper">
+                    <a href="/music/#" class="flex items-center justify-center p-4 bg-secondary rounded-lg">
+                        <p class="font-serif text-xl font-bold text-[#542112]">
+                            موسیقی سنتی
+                        </p>
+                    </a>
+                </div>
+
+                <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+                    <img src="../assets/images/music-background.svg">
+                </div>
+            </div>
+            <div class="relative hover:-translate-y-2 transition-all">
+                <div class="image-wrapper">
+                    <a href="/music/#" class="flex items-center justify-center p-4 bg-secondary rounded-lg">
+                        <p class="font-serif text-xl font-bold text-[#542112]">
+                            موسیقی محلی
+                        </p>
+                    </a>
+                </div>
+
+                <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+                    <img src="../assets/images/music-background.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="my-20 lg:my-40 max-w-7xl mx-auto px-4">
+        <header class="grid grid-cols-12 items-center gap-6">
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/right-divider.svg">
+            </div>
+            <div class="col-span-12 lg:col-span-4 flex flex-row gap-3 items-center justify-center">
+                <img src="../assets/icons/Chicken.svg">
+                <h2 class="text-3xl font-serif">خدمات تالار</h2>
+            </div>
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/left-divider.svg">
+            </div>
+        </header>
+
+        <div class="relative mt-16 grid grid-cols-2 lg:grid-cols-4 gap-6 items-center">
+            <div>
+                <a href="#" class="flex flex-col">
+                    <div class="relative">
+                        <div class="flex items-center justify-center">
+                            <img src="../assets/images/Laptop.svg" alt="کارشناس برگذاری مراسم">
+                        </div>
+                        <div class="absolute -inset-3 -z-10">
+                            <img src="../assets/images/service-border.svg" alt="border" class="mx-auto">
+                        </div>
+                    </div>
+
+                    <div class="relative -top-5 w-10/12 md:w-6/12 lg:w-8/12 mx-auto">
+                        <p
+                            class="w-full text-sm lg:text-xl text-center rounded-lg p-2 md:p-4 bg-[#d2ac678f] text-white">
+                            کارشناس برگذاری مراسم
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="flex flex-col">
+                    <div class="relative">
+                        <div class="flex items-center justify-center">
+                            <img src="../assets/images/Rectangle 15.svg" alt="نظر سنجی بعد از عروسی">
+                        </div>
+                        <div class="absolute -inset-3 -z-10">
+                            <img src="../assets/images/service-border.svg" alt="border" class="mx-auto">
+                        </div>
+                    </div>
+
+                    <div class="relative -top-5 w-10/12 md:w-6/12 lg:w-8/12 mx-auto">
+                        <p
+                            class="w-full text-sm lg:text-xl text-center rounded-lg p-2 md:p-4 bg-[#d2ac678f] text-white">
+                            نظر سنجی بعد از عروسی
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="flex flex-col">
+                    <div class="relative">
+                        <div class="flex items-center justify-center">
+                            <img src="../assets/images/Seremone.svg" alt="تشریفات تالار">
+                        </div>
+                        <div class="absolute -inset-3 -z-10">
+                            <img src="../assets/images/service-border.svg" alt="border" class="mx-auto">
+                        </div>
+                    </div>
+
+                    <div class="relative -top-5 w-10/12 md:w-6/12 lg:w-8/12 mx-auto">
+                        <p
+                            class="w-full text-sm lg:text-xl text-center rounded-lg p-2 md:px-4 md:py-6 bg-[#d2ac678f] text-white">
+                            تشریفات تالار
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="flex flex-col">
+                    <div class="relative">
+                        <div class="flex items-center justify-center">
+                            <img src="../assets/images/Rectangle 18.svg" alt="تجهیزات و امکانات تالار">
+                        </div>
+                        <div class="absolute -inset-3 -z-10">
+                            <img src="../assets/images/service-border.svg" alt="border" class="mx-auto">
+                        </div>
+                    </div>
+
+                    <div class="relative -top-5 w-10/12 md:w-6/12 lg:w-8/12 mx-auto">
+                        <p
+                            class="w-full text-sm lg:text-xl text-center rounded-lg p-2 md:p-4 bg-[#d2ac678f] text-white">
+                            تجهیزات و امکانات تالار
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="absolute inset-x-0 top-44 -z-20 hidden lg:flex">
+                <img src="../assets/images/Rectangle 20.svg">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- videos section -->
+    <section class="my-20 lg:my-40 max-w-7xl mx-auto px-4 lg:px-0">
+        <header class="grid grid-cols-12 items-center gap-6">
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/right-divider.svg">
+            </div>
+            <div class="col-span-12 lg:col-span-4 flex flex-row gap-3 items-center justify-center">
+                <img src="../assets/icons/message-svgrepo-com 1.svg">
+                <h2 class="text-3xl font-serif">ویدئو های تالار</h2>
+            </div>
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/left-divider.svg">
+            </div>
+        </header>
+
+        <div class="relative mt-16">
+            <div class="max-w-5xl mx-auto">
+                <div class="swiper home-video-slider relative">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <video controls class="w-full h-52 md:h-64 lg:h-72 object-cover rounded-lg">
+                                <source src="../assets/videos/kalhor.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+
+                            </video>
+                        </div>
+                        <div class="swiper-slide">
+                            <video controls class="w-full h-52 md:h-64 lg:h-72 object-cover rounded-lg">
+                                <source src="../assets/videos/encanto.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+
+                            </video>
+                        </div>
+                        <div class="swiper-slide">
+                            <video controls class="w-full h-52 md:h-64 lg:h-72 object-cover rounded-lg">
+                                <source src="../assets/videos/kalhor.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+
+                            </video>
+                        </div>
+                        <div class="swiper-slide">
+                            <video controls class="w-full h-52 md:h-64 lg:h-72 object-cover rounded-lg">
+                                <source src="../assets/videos/encanto.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+
+                            </video>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-10 flex flex-row items-center justify-center gap-4">
+                    <button type="button" class="video-btn-prev">
+                        <img src="../assets/icons/arrow-square-right.svg">
+                    </button>
+
+                    <button type="button" class="video-btn-next">
+                        <img src="../assets/icons/arrow-square-left.svg">
+                    </button>
+                </div>
+            </div>
+            <div class="absolute left-0 -top-80 -z-10 hidden lg:flex">
+                <img src="../assets/images/Videos-bg-left.svg" alt="frame">
+            </div>
+            <div class="absolute right-0 top-20 -z-10 hidden lg:flex">
+                <img src="../assets/images/Videos-bg-right.svg" alt="frame">
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews section -->
+    <section class="my-20 lg:my-40 max-w-7xl mx-auto px-4 lg:px-2">
+        <header class="grid grid-cols-12 items-center gap-6">
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/right-divider.svg">
+            </div>
+            <div class="col-span-12 lg:col-span-4 flex flex-row gap-3 items-center justify-center">
+                <img src="../assets/icons/review-icon.svg">
+                <h2 class="text-3xl font-serif">نظر مشتریان </h2>
+            </div>
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/left-divider.svg">
+            </div>
+        </header>
+
+        <div class="relative mt-16 max-w-5xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+                <!-- avatars -->
+                <div class="col-span-1 md:col-span-5">
+                    <div class="relative grid items-center justify-center">
+                        <div class="col-start-1 row-start-1">
+                            <img src="../assets/images/Ellipse 19.svg" alt="frame">
+                        </div>
+                        <div class="relative col-start-1 pl-8 row-start-1 flex justify-center items-center">
+                            <img src="../assets/images/Rectangle 22.png" alt="avatar"
+                                class="w-60 h-60 md:h-72 md:w-72 rounded-full object-cover ">
+                            <!-- <button type="button"
+                                class="play-voice-btn absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+                                <img src="../assets/icons/play.svg" alt="play">
+                            </button> -->
+                        </div>
+                        <span class="absolute top-1/2 right-0">
+                            <div class="avatar">
+                                <div class="w-16 md:w-20 rounded-full">
+                                    <img src="../assets/images/Ellipse 17.png" alt="avatar" />
+                                </div>
+                            </div>
+                        </span>
+                        <span class="absolute -bottom-8 right-1/2">
+                            <div class="avatar">
+                                <div class="w-16 md:w-20 rounded-full">
+                                    <img src="../assets/images/Ellipse 15.png" alt="avatar" />
+                                </div>
+                            </div>
+                        </span>
+                        <span class="absolute bottom-1/4 left-7">
+                            <div class="avatar">
+                                <div class="w-16 md:w-20 rounded-full">
+                                    <img src="../assets/images/Ellipse 18.png" alt="avatar" />
+                                </div>
+                            </div>
+                        </span>
+                        <span class="absolute bottom-3/4 left-1/3">
+                            <div class="avatar">
+                                <div class="w-16 md:w-20 rounded-full">
+                                    <img src="../assets/images/Ellipse 16.png" alt="avatar" />
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <!-- //// -->
+                <!-- content -->
+                <div class="col-span-1 md:col-span-7">
+                    <div class="swiper home-reviews-slider relative">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="grid gap-8 py-6">
+                                    <div class="flex flex-col gap-4">
+                                        <h5 class="font-semibold">امیر رئیسی</h5>
+                                        <h5 class="text-xs">مدیرعامل شرکت فراز</h5>
+                                    </div>
+                                    <p class="text-sm leading-7">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                        طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                        لازم است
+                                        <br />
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                        طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                        لازم است
+                                    </p>
+                                    <div class="voice-player-container flex flex-row gap-6 items-center">
+                                        <div class="voice-1 basis-2/3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="grid gap-8 py-6">
+                                    <div class="flex flex-col gap-4">
+                                        <h5 class="font-semibold">امیر رئیسی</h5>
+                                        <h5 class="text-xs">مدیرعامل شرکت فراز</h5>
+                                    </div>
+                                    <p class="text-sm leading-7">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                        طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                        لازم است
+                                        <br />
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                        طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                        لازم است
+                                    </p>
+                                    <div class="voice-player-container flex flex-row gap-6 items-center">
+                                        <div class="voice-2 basis-2/3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="grid gap-8 py-6">
+                                    <div class="flex flex-col gap-4">
+                                        <h5 class="font-semibold">امیر رئیسی</h5>
+                                        <h5 class="text-xs">مدیرعامل شرکت فراز</h5>
+                                    </div>
+                                    <p class="text-sm leading-7">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                        طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                        لازم است
+                                        <br />
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                        طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                        لازم است
+                                    </p>
+                                    <div class="voice-player-container flex flex-row gap-6 items-center">
+                                        <div class="voice-3 basis-2/3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-row justify-center md:justify-end gap-5 items-center">
+                            <button type="button" class="review-btn-prev">
+                                <img src="../assets/icons/arrow-square-right.svg" alt="prev">
+                            </button>
+                            <button type="button" class="review-btn-next">
+                                <img src="../assets/icons/arrow-square-left.svg" alt="next">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- //// -->
+            </div>
+        </div>
+
+    </section>
+
+    <!-- gallery section -->
+    <section class="my-20 lg:my-40 max-w-7xl mx-auto px-4 lg:px-0">
+        <header class="grid grid-cols-12 items-center gap-6">
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/right-divider.svg">
+            </div>
+            <div class="col-span-12 lg:col-span-4 flex flex-row gap-3 items-center justify-center">
+                <img src="../assets/icons/gallery-favorite.svg">
+                <h2 class="text-3xl font-serif">گالری تصاویر</h2>
+            </div>
+            <div class="col-span-4 hidden lg:flex">
+                <img src="../assets/icons/left-divider.svg">
+            </div>
+        </header>
+
+        <div class="relative mt-16">
+            <div class="max-w-5xl mx-auto">
+                <div class="swiper home-gallery-slider relative pb-52">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="../assets/images/Rectangle 103.png" alt="favorit"
+                                class="w-full h-52 md:h-80 object-cover rounded-lg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/images/Rectangle 334.png" alt="favorit"
+                                class="w-full h-52 md:h-80 object-cover rounded-lg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/images/Rectangle 103.png" alt="favorit"
+                                class="w-full h-52 md:h-80 object-cover rounded-lg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/images/Rectangle 334.png" alt="favorit"
+                                class="w-full h-52 md:h-80 object-cover rounded-lg">
+                        </div>
+                    </div>
+                    <div class="mt-8 flex justify-center items-center">
+                        <div class="swiper-gallery-pagination"></div>
+                    </div>
+                </div>
+
+                <button type="button"
+                    class="gallery-btn-prev hidden lg:flex absolute top-1/2 -translate-y-1/2 right-40 z-20">
+                    <img src="../assets/icons/arrow-square-right.svg">
+                </button>
+
+                <button type="button"
+                    class="gallery-btn-next hidden lg:flex absolute top-1/2 -translate-y-1/2 left-40 z-20">
+                    <img src="../assets/icons/arrow-square-left.svg">
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <footer class="relative overflow-hidden z-10">
+        <div class=" container max-w-6xl px-4 pt-36 md:pt-24 pb-10">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-14 items-end justify-between">
+                <div class="col-span-1 md:col-span-5">
+                    <div class="grid gap-5">
+                        <div class="flex md:hidden items-center justify-center">
+                            <img src="../assets/images/Logo-Footer.png" alr="میرداماد"
+                                class="max-w-full h-fit object-cover">
+                        </div>
+                        <h2 class="text-xl lg:text-3xl">
+                            درباره ما
+                        </h2>
+                        <p class="text-sm leading-7">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-span-1 md:col-span-3 grid gap-5">
+                    <div class="md:flex hidden items-center justify-center relative left-2">
+                        <img src="../assets/images/Logo-Footer.png" alr="میرداماد"
+                            class="max-w-full h-fit object-cover">
+                    </div>
+                    <h2 class="text-xl lg:text-3xl">ارتباط با ما</h2>
+                    <div class="grid gap-3">
+                        <h5 class="text-sm">
+                            اهواز، بهارستان، صدف یکم، همگام4
+                        </h5>
+                        <a href="tel:061456365343" class="text-sm">
+                            061-4563654535
+                        </a>
+                        <a href="tel:09164567367" class="text-sm">
+                            09164567367
+                        </a>
+                        <div class="flex flex-row gap-3 items-center">
+                            <a href="#">
+                                <img src="../assets/icons/instagram.svg">
+                            </a>
+                            <a href="#">
+                                <img src="../assets/icons/Facebook.svg">
+                            </a>
+                            <a href="#">
+                                <img src="../assets/icons/Twitter.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- route -->
+                <div class="col-span-1 md:col-span-4 hidden md:flex">
+                    <div class="relative pb-10">
+                        <a href="#"
+                            class="flex flex-row gap-3 text-lg lg:text-2xl border border-secondary items-center px-5 py-3 rounded-xl bg-gradient-to-r from-[#35343400] to-[#353434] backdrop-blur-sm">
+                            <img src="../assets/icons/routing-2.svg">
+                            <span class="font-serif">
+                                مسیریابی آنلاین تالار
+                            </span>
+                        </a>
+                        <div class="absolute top-1/2 -translate-y-2/3 left-1/2 -translate-x-1/2 -z-10">
+                            <img src="../assets/images/Footer-Frame.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-2/4 h-8 rounded-2xl absolute left-1/2 -translate-x-1/2 -bottom-5"
+            style="background:linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+        </div>
+
+    </footer>
+
+    <!-- drawer -->
+    <div
+        class="drawer lg:hidden invisible opacity-0 inset-y-0 fixed transition-all duration-300 left-0 w-0 z-50 rounded-r-3xl border-t border-r border-b border-secondary bg-[rgba(54,53,53,0.75)] backdrop-blur-md overflow-hidden">
+        <div class="flex flex-col gap-5 py-6 h-full">
+            <div class="px-3">
+                <div class="flex flex-row gap-3 items-center justify-between px-3 border-b border-gray-200 pb-5">
+                    <button type="button" id="hideDrawerBtn" class="flex justify-center items-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-x-circle fill-white" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path
+                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                    <h2 class="text-xl text-white">
+                        میرداماد
+                    </h2>
+                </div>
+            </div>
+
+            <ul class="flex flex-col gap-10 pl-6">
+                <li class="flex flex-row gap-5 items-center">
+                    <span class="w-[46px] h-[15px] rounded-[48px_0px_0px_48px]"
+                        style="background: linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+                    </span>
+                    <a href="#" class="text-white font-medium">راهنمای پیش رزرو</a>
+                </li>
+                <li class="flex flex-row gap-5 items-center">
+                    <span class="w-[46px] h-[15px] rounded-[48px_0px_0px_48px]"
+                        style="background: linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+                    </span>
+                    <a href="#" class="text-white font-medium">پاساژ آنلاین</a>
+                </li>
+                <li class="flex flex-row gap-5 items-center">
+                    <span class="w-[46px] h-[15px] rounded-[48px_0px_0px_48px]"
+                        style="background: linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+                    </span>
+                    <a href="#" class="text-white font-medium">بلاگ و مقالات</a>
+                </li>
+                <li class="flex flex-row gap-5 items-center">
+                    <span class="w-[46px] h-[15px] rounded-[48px_0px_0px_48px]"
+                        style="background: linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+                    </span>
+                    <a href="#" class="text-white font-medium">خدمات تالار</a>
+                </li>
+                <li class="flex flex-row gap-5 items-center">
+                    <span class="w-[46px] h-[15px] rounded-[48px_0px_0px_48px]"
+                        style="background: linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+                    </span>
+                    <a href="#" class="text-white font-medium">درباره ما</a>
+                </li>
+                <li class="flex flex-row gap-5 items-center">
+                    <span class="w-[46px] h-[15px] rounded-[48px_0px_0px_48px]"
+                        style="background: linear-gradient(268.62deg, #7A5013 23.29%, #92711B 38.42%, #F9EDBF 44.91%, #F9EBB9 47.07%, #F8E7A9 49.77%, #F6E08E 52.47%, #F5DD83 53.55%, #C7A85B 60.58%, #997332 68.14%, #7C5219 73.55%, #714610 76.79%);">
+                    </span>
+                    <a href="#" class="text-white font-medium">قوانین و مقررات</a>
+                </li>
+
+            </ul>
+
+            <div class="mt-auto px-6 pb-16">
+                <form action="#" method="post" class="relative">
+                    <button type="submit" class="absolute top-1/2 -translate-y-1/2 left-2 ">
+                        <img src="../assets/icons/search-normal.svg" alt="search">
+                    </button>
+                    <input type="search" placeholder="جستو جو کنید" name="search"
+                        class="rounded-xl bg-white focus:outline-none focus:ring-1 ring-accent w-full pl-6 pr-2 py-3">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/homeVideoSlider.js"></script>
+    <script src="../js/homeGallerySlider.js"></script>
+    <script src="../js/homeReviewsSlider.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="../js/homeVoicePlayer.js"></script>
+    <script src="../js/mobileDrawer.js"></script>
+
+
+
+</body>
+
+</html>
